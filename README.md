@@ -11,3 +11,5 @@
 - This would return ID which is useful for switching
 # Switch user
 `adb shell am switch-user <user-id>`
+# Search apps
+`adb shell pm list packages | findstr <App_Name>`
